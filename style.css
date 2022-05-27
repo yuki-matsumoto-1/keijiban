@@ -1,0 +1,141 @@
+.m_menu{
+    /* width:100%; だと100％を超えるが、下の表記ならピッタリになる*/
+    box-sizing: border-box;
+
+    background-color:black;
+    height:50px;
+    padding-left:5.5em;
+
+    margin-bottom:30px;
+}
+
+.m_menu li{
+    display:inline-block;
+    list-style:none;
+    color:white;
+    padding-right:50px;
+    line-height:50px;
+
+}
+
+body{
+    margin:0;
+}
+main{
+    margin:0.7%;
+}
+
+h1{
+    border-left:solid 6px black;
+    border-bottom:solid 3px black;
+    margin-top:0px;
+}
+
+.right_menu{
+    float:right;
+    width:30%;
+}
+
+.right_menu ul{
+    padding-left:20px;
+    margin-bottom:10px;
+}
+
+.right_menu li{
+    padding-bottom:15px;
+    text-align:left;
+    list-style:none;
+
+}
+
+
+.right_menu h2{
+    padding-top:10px;
+    border-bottom:dashed 1px black;
+    text-align:left;
+    width:95%;
+    margin-top:0px;
+}
+.left_main{
+    /* display:inline-block; */
+    float:left;
+    width:66%;
+    margin-bottom:40px;
+    margin:0px;
+}
+
+.left_main .form{
+    border-left:solid 5px red;
+    margin-left:15px;
+    padding-left:3px;
+    margin-bottom:5px;
+
+
+}
+
+.left_main div{
+    padding-bottom:5px;
+    /* padding-left:2px; */
+}
+
+.left_main textarea{
+    width:60%;
+}
+
+form{
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    margin-bottom:10px;
+    padding-bottom:10px;
+
+}
+
+form div{
+    padding:15px;
+}
+
+.text, textarea, .dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background:#fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+}
+
+
+footer{
+    clear:both;
+    text-align:center;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    margin-top:20px;
+    background-color:black;
+    color:white;
+}
+
+.kiji{
+    clear:both;
+    border:3px #ebebeb solid;
+    background-color:#fbfbfb;
+    margin-top:5px;
+}
+.kiji h3{
+    border-bottom:solid 1px lightgray;
+}
+
+.kiji,.contents,.handlename {
+    padding-left:5px;
+}
+
+.toukou {
+    margin-bottom:30px;
+}
